@@ -16,3 +16,4 @@
 - [MCP servers](project-mcp-servers.md) — monorepo ~/Projects/mcp-servers; travel MCP (SerpApi) working end-to-end via Tailscale Funnel connector
 - [Tailscale](reference-tailscale.md) — personal tailnet via GitHub (not NTU email); hetzner-de Funnel; pkill pitfall
 - [Forward paper test](project-forward-test.md) — Form 4 + health-filter paper test on VPS since 2026-10-08, bot /forward, rule frozen
+- [Memory sync](reference-memory-sync.md) — how memory syncs Mac↔boya-server via boyalyn/claude-memory: symlink rule, hooks, log, troubleshooting
