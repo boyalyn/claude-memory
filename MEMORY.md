@@ -1,0 +1,4 @@
+- [Autonomy and doc style](feedback-autonomy-and-docs.md) — run/download/code freely in work folders; plain English docs with glossary
+- [Trader research state](project-trader-research-state.md) — what was tested 2026-10 and the QQQ bar
+- [Goal: money or abandon](feedback-goal-money-or-abandon.md) — only monetizable paths; give go/no-go per direction; no savings sermons
+- [Notification channel](reference-notification-channel.md) — "jarvis" = tech-digest Telegram bot; creds only on VPS
