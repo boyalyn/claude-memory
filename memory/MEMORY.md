@@ -2,3 +2,17 @@
 - [Trader research state](project-trader-research-state.md) — what was tested 2026-10 and the QQQ bar
 - [Goal: money or abandon](feedback-goal-money-or-abandon.md) — only monetizable paths; give go/no-go per direction; no savings sermons
 - [Notification channel](reference-notification-channel.md) — "jarvis" = tech-digest Telegram bot; creds only on VPS
+- [User profile](user-profile.md) — Python-fluent Chinese speaker, often phone-only, cost/token-conscious
+- [Working style](feedback-working-style.md) — commit only when asked; report own bugs; real-money caution; evidence over reassurance
+- [Access & credentials](reference-access-and-credentials.md) — how SSH/GitHub/Telegram/moomoo access works, where secrets live (no values)
+- [Project status](project-status.md) — big picture: user gave up beating QQQ with signals; what runs on the VPS now
+- [PEAD direction](project-pead-direction.md) — 2026-10-04 PEAD research (passed OOS, but ~+0-2%/yr over index) — user dropped it as not worth it; $25k capital
+- [Polymarket access](polymarket-access.md) — public data APIs work locally and from DE server; trading geoblocked in DE; data-only intent
+- [Momentum study](project-momentum-study.md) — momentum + QQQ earnings-tilt studies failed OOS; user dropped earnings/news tilt route; megacap headwind finding
+- [Odd-lot tenders](project-oddlot.md) — dropped: ~2% spreads and 30% gross US withholding for this user
+- [Tech digest](project-tech-digest.md) — news digest + chat + learned profile + 👍/👎, /sources, /time (bot schedules itself; systemd timer disabled), bot @boya_assist_bot
+- [VPS proxy](reference-vps-proxy.md) — Xray VLESS+Reality on the VPS (bound to public IP only, for Funnel); secrets server-only; microsoft.com target fails
+- [Home server](reference-home-server.md) — boya-server on LAN (N100/16GB): Claude Code Remote Control "home-lab" via user systemd+tmux; butler plan
+- [MCP servers](project-mcp-servers.md) — monorepo ~/Projects/mcp-servers; travel MCP (SerpApi) working end-to-end via Tailscale Funnel connector
+- [Tailscale](reference-tailscale.md) — personal tailnet via GitHub (not NTU email); hetzner-de Funnel; pkill pitfall
+- [Forward paper test](project-forward-test.md) — Form 4 + health-filter paper test on VPS since 2026-10-08, bot /forward, rule frozen
