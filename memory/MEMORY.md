@@ -19,3 +19,6 @@
 - [Memory sync](reference-memory-sync.md) — how memory syncs Mac↔boya-server via boyalyn/claude-memory: symlink rule, hooks, log, troubleshooting
 - [Ideas log](reference-ideas-log.md) — unverified ideas live in ~/claude-memory/ideas/ (synced; symlinked at lab/ideas); how to log and reference them
 - [No judgments in memory](feedback-no-judgments-in-memory.md) — store facts/instructions/tested results only; no verdicts from a few turns
+- [Freelance gigs](project-freelance-gigs.md) — Freelancer.com side income: gig-scout scanner, /propose, daily playbook, delivery packager, agreed rules, unverified items
+- [Bittensor / SN13](project-bittensor.md) — no gig demand; SN13 CPU mining on-chain numbers (~$5/day/miner, high churn); scraping untested
+- [Kaggle work](project-kaggle.md) — ~/lab/kaggle, token in .env, notify.sh via VPS, results, lessons; user wants prize-money comps next
