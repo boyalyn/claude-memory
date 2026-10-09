@@ -1,5 +1,5 @@
 - [Autonomy and doc style](feedback-autonomy-and-docs.md) — run/download/code freely in work folders; plain English docs with glossary
-- [Trader research state](project-trader-research-state.md) — what was tested 2026-10 and the QQQ bar
+- [Trader research state](project-trader-research-state.md) — where the research lives, constraints, data traps, to-dos; facts only
 - [Goal: money or abandon](feedback-goal-money-or-abandon.md) — only monetizable paths; give go/no-go per direction; no savings sermons
 - [Notification channel](reference-notification-channel.md) — "jarvis" = tech-digest Telegram bot; creds only on VPS
 - [User profile](user-profile.md) — Python-fluent Chinese speaker, often phone-only, cost/token-conscious
@@ -17,3 +17,5 @@
 - [Tailscale](reference-tailscale.md) — personal tailnet via GitHub (not NTU email); hetzner-de Funnel; pkill pitfall
 - [Forward paper test](project-forward-test.md) — Form 4 + health-filter paper test on VPS since 2026-10-08, bot /forward, rule frozen
 - [Memory sync](reference-memory-sync.md) — how memory syncs Mac↔boya-server via boyalyn/claude-memory: symlink rule, hooks, log, troubleshooting
+- [Ideas log](reference-ideas-log.md) — unverified ideas live in ~/claude-memory/ideas/ (synced; symlinked at lab/ideas); how to log and reference them
+- [No judgments in memory](feedback-no-judgments-in-memory.md) — store facts/instructions/tested results only; no verdicts from a few turns
