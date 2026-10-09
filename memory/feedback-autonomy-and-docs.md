@@ -16,6 +16,7 @@ usage passes ~95% (raised from 85% on 2026-10-07).
 **Why:** they want long autonomous research runs and were repeatedly interrupted by prompts.
 **How to apply:** just run scripts/downloads in the work folders; still do NOT commit/push, touch the
 production VPS (178.105.158.87), or use credentials I wasn't handed without asking. Sudo was only for this machine.
+Exception (2026-10-09): the user authorized automatic commit/push of the memory-sync repo boyalyn/claude-memory (~/claude-memory) via SessionStart/SessionEnd hooks in ~/.claude/settings.json; the no-push rule still applies to all code repos.
 
 Docs: write in English, plain language the user can follow (they are learning the finance terms):
 each doc starts with "In plain words", has a glossary, states success criteria BEFORE results, and gives
