@@ -28,3 +28,7 @@ so the exact match rule is unclear. Local no-self validation: best-of-25 Tanimot
 
 2026-10-09 end: user said to give up on Kaggriculture (could not join) and Enveda paused; no background jobs left running (watch_join stopped).
 Unsubmitted: store-sales/sub6.csv. Unrun: titanic/run2.py.
+
+Enveda round 2 (2026-10-09/10): MRR@25 on tautomer-canonical InChIKey14; test = unpublished natural molecules. Pool train+COCONUT (~729k) helps (0.125 -> 0.191).
+Fingerprint net (fpnet.py, CPU, ~5 min/epoch) scored 0.183 on LB despite local MRR 0.57: local validations (random, similarity-thresholded, np-examples) did not
+predict LB ranking. Datasets/kernels on Kaggle: boyaliu97/casmi-pool-lib (private dataset), kernels casmi-analog-v2, casmi-fpnet-v3. Top-10% line 0.425, my best 0.191.
