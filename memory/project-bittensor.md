@@ -32,6 +32,8 @@ User wants money from Bittensor; no GPU. No Freelancer/GitHub-bounty demand for 
 
 **Request statistics & adaptive long-tail threshold (2026-10-13 11:10 UTC, VPS):** scraping/od_request_stats.py records every OD request (Reddit key = subreddit, X key = normalized keywords@usernames) to ~/data-universe/od_requests.jsonl and keeps decayed counts (half-life 24h) in od_request_stats.json. Threshold T is read from the distribution: smallest count c in [1,6] where continuation prob r(c)=#keys(count>=c+1)/#keys(count>=c) >= 0.5 (P_STAR); cold start T=2 until 500 obs and 6h history. is_tail(key)=count+0.25<T; Reddit module spends Apify money only on non-tail subs (core head >=2T may use whole daily budget, band above T only first 60%). Observed Reddit distribution (2,018 requests, 304 subs, ~10h): 241 subs seen once, 8 seen 2-3x, 54 seen 4+; r(1)=0.20, r(2)=0.87, r(3+)=~1.0; top 40 subs ~80% of requests; T=2 -> head ~61 subs (~87% of mass). X keys are almost all unique (257 keys in 335 requests): no head/tail structure, X is recorded only. Tools: od_stats_backfill.py (seed from miner logs), od_stats_report.py [reddit|x] (distribution, coverage curve, replay of the rule, continuation probabilities).
 
+**Handoff for a fresh session:** read ~/lab/bittensor/HANDOFF.md first (state, safe-restart recipe, scoring mechanics, to-do list as of 2026-10-13 20:30 local).
+
 **Open:** real incentive after a few epochs; whether Reddit small subs are reachable by the actor; how scoring treats non-participation. Registration fee and $19 plan are sunk; Apify plan can be downgraded before renewal.
 
 **Why:** staged experiment; user decides stop/continue after chain feedback.

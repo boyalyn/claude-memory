@@ -33,3 +33,5 @@
 - [Musk tweets vs TSLA](project-musk-tweets-tsla.md) — ~/lab/tsla-study: data, frozen plans+hashes, Apify limits, forward test pending until Bittensor finishes
 - [Local time](feedback-local-time.md) — report times in Singapore local time (UTC+8), never UTC
 - [Opportunity scan 2026-10](project-opportunity-scan-2026-10.md) — Virtuals ACP (no-go evidence) and other-subnet candidates, data paths
+- [Bittensor handoff](project-bittensor.md) — read ~/lab/bittensor/HANDOFF.md first in a new session
+- [SN101 prep](project-sn101-prep.md) — VPS ~/sn101 venv ready, chain facts 2026-10-13, what's still needed
