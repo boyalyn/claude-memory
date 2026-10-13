@@ -20,5 +20,16 @@
 - [Ideas log](reference-ideas-log.md) — unverified ideas live in ~/claude-memory/ideas/ (synced; symlinked at lab/ideas); how to log and reference them
 - [No judgments in memory](feedback-no-judgments-in-memory.md) — store facts/instructions/tested results only; no verdicts from a few turns
 - [Freelance gigs](project-freelance-gigs.md) — Freelancer.com side income: gig-scout scanner, /propose, daily playbook, delivery packager, agreed rules, unverified items
-- [Bittensor / SN13](project-bittensor.md) — no gig demand; SN13 CPU mining on-chain numbers (~$5/day/miner, high churn); scraping untested
+- [Bittensor / SN13](project-bittensor.md) — UID 181 miner on VPS since 2026-10-12; setup, measured facts, corrected Apify costs, open questions
 - [Kaggle work](project-kaggle.md) — ~/lab/kaggle, token in .env, notify.sh via VPS, results, lessons; user wants prize-money comps next
+- [News-heat sector study](project-news-sector-heat.md) — ~/lab/news-etf: heat->sector ETF tests on 2009-2019, test period 2020+ locked/untouched, results + traps
+- [BTC single-asset study](project-btc-study.md) — ~/lab/btc-study: pre-registered H1-H5, locked test spent 2026-10-11, results; no live trading
+- [Income plan 2026-10-11](project-income-plan-2026-10-11.md) — user has ~15k USDT, 1h/day; gig-scout gate relaxed; crypto yields ~4-5%; open items
+- [Ichimoku on SPY](project-ichimoku-spy.md) — 2026-10-12 pre-registered test: R1 CAGR 4.1% vs B&H 14.3% (2010-2026), both criteria failed
+- [English formulas](feedback-english-formulas.md) — formulas/technical terms in English; explanation prose in Chinese
+- [Keep exploring](feedback-keep-exploring.md) — mid-exploration: no wrap-up pushes; propose next experiments; verdicts only on request
+- [Forecast journal](project-forecast-journal.md) — ~/lab/forecast-journal: weekly yes/no predictions scored by Brier vs baseline; reminder not set up yet
+- [Company discovery](project-company-discovery.md) — VC-style search for future giants; long-term learning goal; cohort-study design agreed, nothing run
+- [Musk tweets vs TSLA](project-musk-tweets-tsla.md) — ~/lab/tsla-study: data, frozen plans+hashes, Apify limits, forward test pending until Bittensor finishes
+- [Local time](feedback-local-time.md) — report times in Singapore local time (UTC+8), never UTC
+- [Opportunity scan 2026-10](project-opportunity-scan-2026-10.md) — Virtuals ACP (no-go evidence) and other-subnet candidates, data paths
