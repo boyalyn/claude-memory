@@ -13,5 +13,5 @@ Optional: nag:on = repeated reminders until done (see README); repeat:monthly = 
 - [ ] #5 P1 due:2026-10-18 est:4h cat:writing added:2026-10-17 — 写一篇关于新加坡 AI governance 的文章 — why: 用户定的周末期限；工作量最大
 - [ ] #6 P1 due:2026-10-18 est:4h cat:coding added:2026-10-17 — 周五遗留：数据 pipeline 代码迁移和补充 — why: 用户定的周末期限；遗留工作
 - [ ] #7 P1 due:2026-10-18 est:3h cat:other added:2026-10-17 — 周五遗留：做完两个 assessment — why: 用户定的周末期限；遗留工作
-
+- [ ] #8 P1 due:2026-10-18T13:30 est:45m cat:errand added:2026-10-17 — 周日 13:30 DJ session（45 分钟，CBD 附近）——准备好并出门 — why: 固定时间的预约；est 是准备+路程（路程未知，按 45 分钟估）
 ## Done
