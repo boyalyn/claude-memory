@@ -2,6 +2,7 @@
 """To-do reminders via jarvis (notify over ssh to the VPS).
 
   remind.py digest      daily summary (cron 09:03 SGT)
+  remind.py say "text"  fixed habit reminder (cron at the chosen time)
   remind.py lastcall    hourly: alert once when time left before due <= est + buffer
 Flags: --dry-run (print, don't send), --no-pull (skip git pull), --now=YYYY-MM-DDTHH:MM (SGT, testing).
 """
@@ -185,6 +186,10 @@ def main():
         subprocess.run([str(HERE.parent / "sync.sh"), "pull"], check=False)
     items = parse((HERE / "TODO.md").read_text(encoding="utf-8"))
 
+    if mode == "say":  # fixed daily habit reminders from crontab: remind.py say "text"
+        text = next((a for a in args[1:] if not a.startswith("--")), "")
+        print(text) if dry else send(text)
+        return
     if mode == "digest":
         msgs = [m for m in [digest(items, now)] if m]
     else:

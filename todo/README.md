@@ -27,3 +27,8 @@
 - `calibrate.py` turns TIME-LOG.md into `memory/user-time-estimates.md`: per category, the median of actual/est.
   Once a category has ≥3 samples, new estimates in that category are multiplied by that median.
 - Sunday digest includes the current per-category numbers.
+
+## Daily habits
+
+Fixed-time nudges are separate crontab lines on boya-server: `remind.py say "<text>"` (not items in TODO.md).
+- 22:30 SGT nightly: nose rinse before brushing teeth (added 2026-10-17 because of haze; remove when the air is better).
