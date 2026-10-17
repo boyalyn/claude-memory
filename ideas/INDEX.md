@@ -7,4 +7,4 @@ Status: untested | testing | supported | not-supported | parked
 |---|---|---|---|
 | idea-001 | Vertical (domain-specific) agent memory as a product | untested | 2026-10-09 |
 | idea-002 | Wisdom is desire-driven; enough info and resources lets anything decompose into small decisions | untested | 2026-10-09 |
-| idea-003 | Phone room scan -> AI plans tidy, sustainable room, buys items, follows up | untested | 2026-10-17 |
+| idea-003 | Phone room scan (or fixed 360° camera) -> AI plans tidy, sustainable room, buys items, follows up | untested | 2026-10-17 |

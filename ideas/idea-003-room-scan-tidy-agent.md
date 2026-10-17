@@ -15,6 +15,11 @@ sustainable to maintain, buys the needed items (storage, organisers) for you, an
 time would be something many people need and would pay for.
 Basis: the user's own intuition, one conversation, no data yet.
 
+### Variant B (added 2026-10-17): fixed 360° camera, continuous
+For a small room, a 360° camera stays in the room and watches it continuously, so the agent knows what changed
+(items moved, piling up, running out) and can, at any time, propose a tidy-up plan or order things — instead of one-off scans.
+Basis: the user's idea in the same conversation, no data.
+
 ## How to test
 - Data / tools needed: phone photos/video or a LiDAR scan of a few real rooms; a vision-capable model; the existing
   shopping_mcp for ordering; market data on existing apps (room-planning, decluttering, home-organisation apps) and their pricing/reviews.
@@ -32,6 +37,10 @@ Who pays: households / renters / students wanting a tidier space. What can be lo
 Unknown, to be found in test: willingness to pay, commission rates, competitors' pricing.
 
 ## Open questions (to test, not judgments)
+- Variant B: can a 360° camera image (which consumer cameras, price, resolution) let a model detect item-level changes reliably day to day? Test: one cheap 360° camera, 1 week in one room, count true/false change detections vs a manual log.
+- Variant B: inference cost per day if frames are analysed (e.g. a few snapshots/day vs continuous) — compute from model pricing before building.
+- Variant B: would people accept an always-on camera in a private room (privacy, on-device vs cloud processing)? Ask in the demand check.
+- Variant B: which "changes" are worth acting on (consumables running out, clutter build-up), and how often would a reorder/plan actually be triggered?
 - Does a phone scan give enough information (dimensions, what is inside drawers/cupboards) for a good plan?
 - Does follow-up actually change behaviour, and what keeps people using it after the first tidy-up?
 - Which existing apps already cover parts of this, and what do they not do?
@@ -39,6 +48,7 @@ Unknown, to be found in test: willingness to pay, commission rates, competitors'
 ## Log
 - 2026-10-17: created from the user's description. Background desk research requested ("有空的话在后台评估").
 - 2026-10-17: desk research added (background agent).
+- 2026-10-17: variant B added (fixed 360° camera watches a small room continuously, detects changes, proposes plans/orders any time).
 
 ## Desk research 2026-10-17
 Method: web search only (2026-10-17), no product built. Third-party numbers (revenue/users) are self-reported or from aggregators; marked where weak. "unverified" = could not confirm from a primary source.
