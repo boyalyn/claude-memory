@@ -17,4 +17,5 @@ Optional: nag:on = repeated reminders until done (see README); repeat:monthly = 
 - [ ] #9 P3 est:3h cat:study added:2026-10-17 — SN101：看实际配置和别人的答案，找可改进的地方 — why: 用户说不急、需要时再做；HANDOFF 记录"领先矿工提交什么"仍未知，先查能否看到别人的答案
 - [ ] #10 P3 est:15m cat:admin added:2026-10-17 — 给 Apify 账户充值（语音写的是 Amplify，按 Apify 理解，待确认） — why: 用户说不急；是重试 SN13 的前提
 - [ ] #11 P3 est:4h cat:coding added:2026-10-17 — 再试一次 SN13 项目（先做 #10） — why: 用户说不急；开始前先读 ~/lab/bittensor/HANDOFF.md
+- [ ] #12 P2 est:10m cat:admin added:2026-10-17 — 在 GitHub 建私有仓库放 ~/lab 代码，把名字告诉 Claude 推上去 — why: lab 代码目前只在 boya-server 本地，硬盘坏了就没了
 ## Done
