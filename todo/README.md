@@ -12,3 +12,12 @@
     there is moved to 22:00 the evening before. Sent once per item (re-sent if due or est changes).
     State: ~/.claude/todo-alerts.json (local).
   - Sunday: full open list plus items open for 14+ days, asking keep / drop / re-prioritise.
+
+## Time tracking (learning how long things take me)
+
+- Each item has `cat:` — one of: `admin` (forms, bills, bookings), `writing` (reports, docs, essays), `coding`,
+  `study` (reading, courses, research), `errand` (going somewhere, buying), `chores` (home), `comms` (emails, calls, messages), `other`.
+- When I report something done, record the actual time (`actual:`), and add a row to `TIME-LOG.md`.
+- `calibrate.py` turns TIME-LOG.md into `memory/user-time-estimates.md`: per category, the median of actual/est.
+  Once a category has ≥3 samples, new estimates in that category are multiplied by that median.
+- Sunday digest includes the current per-category numbers.

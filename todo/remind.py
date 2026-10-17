@@ -109,6 +109,13 @@ def digest(items, now):
         if rest:
             out += ["", "其余:"] + [fmt(i, now) for i in rest]
         stale = [i for i in items if i["added"] and (today - i["added"]).days >= 14]
+        try:
+            import calibrate
+            cal = [line for _, line in calibrate.summary()[0]]
+        except Exception as e:  # never let calibration break the digest
+            cal = [f"(calibration error: {e})"]
+        if cal:
+            out += ["", "⏱ 你的实际用时 / 预估（按类别）:"] + [c.split(" → ")[0] for c in cal]
         if stale:
             out += ["", "🧹 已放 14 天以上，保留 / 删掉 / 改优先级？"] + [fmt(i, now) for i in stale]
     elif rest:
