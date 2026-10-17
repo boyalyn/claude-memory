@@ -25,3 +25,4 @@ What went wrong:
 - **Every public data source used in an answer must appear as a link in that answer** (user, 2026-10-18: "以后，所有的公开数据来源的链接必须出现在你给的答案里"). Examples: the page URL (e.g. https://tag101.ai/ for the homepage snapshot), the GitHub repo/file, the web pages a search result came from. If the source has changed or is gone (e.g. a rotating snapshot), say so and point to our archived copy (path).
   **Why:** the user said they no longer trust my paraphrase of sources and want to check them directly.
 - Related: [[feedback-working-style]], [[feedback-no-judgments-in-memory]], [[project-sn101-prep]].
+- Never change a decision the user already made (e.g. which arms/prompts go live) inside a larger plan without calling it out explicitly as a change and asking. 2026-10-18: user chose A + B1; my adaptive plan silently re-added B2 and the user was upset ("怎么就有三个方案了，不是两个吗").
