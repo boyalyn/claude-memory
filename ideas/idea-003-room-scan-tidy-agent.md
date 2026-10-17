@@ -20,6 +20,12 @@ For a small room, a 360° camera stays in the room and watches it continuously, 
 (items moved, piling up, running out) and can, at any time, propose a tidy-up plan or order things — instead of one-off scans.
 Basis: the user's idea in the same conversation, no data.
 
+### Partnership angle (added 2026-10-17)
+Partner with camera makers (bundle / co-market / use their SDK), which might also give better data and recommendations.
+The user will use the product personally first, with their own room as the test site.
+Unverified notes (from memory, check before relying on them): Ricoh Theta and Insta360 have developer APIs/SDKs; many
+pan-tilt home cameras (e.g. TP-Link Tapo class) expose a local RTSP stream, which is enough for periodic snapshots.
+
 ## How to test
 - Data / tools needed: phone photos/video or a LiDAR scan of a few real rooms; a vision-capable model; the existing
   shopping_mcp for ordering; market data on existing apps (room-planning, decluttering, home-organisation apps) and their pricing/reviews.
@@ -37,6 +43,8 @@ Who pays: households / renters / students wanting a tidier space. What can be lo
 Unknown, to be found in test: willingness to pay, commission rates, competitors' pricing.
 
 ## Open questions (to test, not judgments)
+- Self-experiment first (user's own room): cheapest camera that gives full-room snapshots + a script that sends a few snapshots/day to Claude and logs detected changes; compare with the user's own change notes for 1-2 weeks. Results become the demo for any partner pitch.
+- Partnership: which vendors run developer/partner programs, what they ask for (traction, users, demo), and what they would gain (camera sales, subscription share). Find out in desk research before contacting anyone.
 - Variant B: can a 360° camera image (which consumer cameras, price, resolution) let a model detect item-level changes reliably day to day? Test: one cheap 360° camera, 1 week in one room, count true/false change detections vs a manual log.
 - Variant B: inference cost per day if frames are analysed (e.g. a few snapshots/day vs continuous) — compute from model pricing before building.
 - Variant B: would people accept an always-on camera in a private room (privacy, on-device vs cloud processing)? Ask in the demand check.
@@ -48,6 +56,7 @@ Unknown, to be found in test: willingness to pay, commission rates, competitors'
 ## Log
 - 2026-10-17: created from the user's description. Background desk research requested ("有空的话在后台评估").
 - 2026-10-17: desk research added (background agent).
+- 2026-10-17: partnership angle added; user will self-test in own room first.
 - 2026-10-17: variant B added (fixed 360° camera watches a small room continuously, detects changes, proposes plans/orders any time).
 
 ## Desk research 2026-10-17
