@@ -14,10 +14,12 @@ Run `~/claude-memory/sync.sh pull` first. Then decide what I want:
   1. Move the item to "## Done" as `- [x] ...` with `done:<today>` and `actual:<time>` (e.g. 40m, 2h, 1.5h).
   2. If I didn't say how long it took, ask once: "实际用了多久？（不记得就说不记得）". If I don't remember, write `actual:?` and skip the log.
   3. With an actual time: append a row to ~/claude-memory/todo/TIME-LOG.md (done date, id, short task, cat, est, actual, ratio = actual/est to 2 decimals), then run `python3 ~/claude-memory/todo/calibrate.py` (it rewrites memory/user-time-estimates.md).
-  4. Reply in 2–3 lines: estimate vs actual ("预估 2h，实际 3h，慢了 50%"), and that category's current numbers from calibrate.py (e.g. "写作类 5 次，中位数是预估的 1.5 倍"). Facts only; no comments on whether I was fast or slow.
+  4. If the item has `repeat:monthly`, add the next occurrence under Open (next id, same text and tags, due one month later, added:<today>) and mention it.
+  5. Reply in 2–3 lines: estimate vs actual ("预估 2h，实际 3h，慢了 50%"), and that category's current numbers from calibrate.py (e.g. "写作类 5 次，中位数是预估的 1.5 倍"). Facts only; no comments on whether I was fast or slow.
 - **`drop N` / `删 N`** → remove item #N from Open (move to Done with ` (dropped)` after the text), one line reply.
 - **`est N 4h` / `due N ...`** → change that item's estimate or due date.
 - **`review` / `评估`** → re-assess every open item's priority and estimate against README rules and today's date; propose changes as a short table (id, old → new, reason) and apply only after I agree.
+- **Recurring / must-not-forget** items (bills, deadlines with penalties): add `repeat:monthly` (or ask) and `nag:on`.
 - **Anything else** → a new item (one message may contain several; split them). For each:
   1. Next id = highest id in the file + 1 (across Open and Done).
   2. Rewrite it as a short, concrete action in my language. Extract a due date if I gave one (convert "明天/下周五" to YYYY-MM-DD in SGT). Do not invent deadlines.

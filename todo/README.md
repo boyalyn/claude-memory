@@ -13,6 +13,12 @@
     State: ~/.claude/todo-alerts.json (local).
   - Sunday: full open list plus items open for 14+ days, asking keep / drop / re-prioritise.
 
+## Nagging and repeats
+
+- `nag:on`: besides the daily digest, a reminder at 20:00 SGT from 4 days before the due date, then 12/15/18/21 on
+  the day before, the due day, and every day after while still open. Both cards in one message. Stops only when marked done.
+- `repeat:monthly`: when marked done, add a new item with the next id, same text/tags, due date one month later, new `added:`.
+
 ## Time tracking (learning how long things take me)
 
 - Each item has `cat:` — one of: `admin` (forms, bills, bookings), `writing` (reports, docs, essays), `coding`,

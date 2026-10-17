@@ -18,6 +18,10 @@ LINE = re.compile(r"^- \[ \] #(\d+) (P[123])(.*?) — (.+?)(?: — why: (.*))?$"
 SGT = dt.timezone(dt.timedelta(hours=8))
 QUIET_START, QUIET_END = 23, 8  # no last-call messages 23:00-08:00 SGT
 DEFAULT_EST = dt.timedelta(hours=1)
+# nag:on items, extra reminders on top of the 09:03 digest, by days left until due (SGT hours):
+NAG_FROM_DAYS = 4                    # start this many days before the due date
+NAG_EARLY_HOURS = {20}               # 2-4 days left
+NAG_LATE_HOURS = {12, 15, 18, 21}    # 1 day left, due day, and every day while overdue
 
 
 def parse_est(s):
@@ -46,6 +50,7 @@ def parse(text):
             "id": int(m.group(1)), "p": m.group(2), "text": m.group(4).strip(), "due": due,
             "est": parse_est(tags.get("est", "")) or DEFAULT_EST, "has_est": "est" in tags,
             "added": dt.date.fromisoformat(tags["added"]) if "added" in tags else None,
+            "nag": tags.get("nag") == "on", "repeat": tags.get("repeat"),
         })
     return items
 
@@ -144,6 +149,21 @@ def lastcall(items, now, sent):
                 tail = f"只剩 {human(left)}，预计要 {human(it['est'])}，已经很紧了——先做最关键的部分，或者想办法延期。"
             msgs.append(f"⚠️ 最后提醒 #{it['id']} [{it['p']}] {it['text']}\n截止 {it['due']:%m-%d %H:%M}，{tail}\n做完回 /todo done {it['id']}")
             keep[key] = now.isoformat()
+    nags = []
+    for it in items:
+        if not (it["nag"] and it["due"]):
+            continue
+        d = (it["due"].date() - now.date()).days
+        hours = NAG_LATE_HOURS if d <= 1 else NAG_EARLY_HOURS if d <= NAG_FROM_DAYS else set()
+        key = f"nag|{it['id']}|{now:%Y-%m-%dT%H}"
+        if key in sent:
+            keep[key] = sent[key]
+        elif now.hour in hours:
+            when = "已逾期！" if it["due"] < now else "今天截止" if d == 0 else f"还有 {d} 天（{it['due']:%m-%d} 截止）"
+            nags.append(f"#{it['id']} {it['text']} — {when}")
+            keep[key] = now.isoformat()
+    if nags:
+        msgs.append("🔔 还没标记完成:\n" + "\n".join(nags) + "\n做完回 /todo done N（不标记会一直提醒）")
     return msgs, keep
 
 
