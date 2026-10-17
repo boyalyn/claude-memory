@@ -31,4 +31,4 @@
 ## Daily habits
 
 Fixed-time nudges are separate crontab lines on boya-server: `remind.py say "<text>"` (not items in TODO.md).
-- 22:30 SGT nightly: nose rinse before brushing teeth (added 2026-10-17 because of haze; remove when the air is better).
+- 23:15 SGT nightly: nose rinse before brushing teeth (added 2026-10-17 because of haze; remove when the air is better).
