@@ -70,8 +70,9 @@ def alert_time(it):
 
 
 def human(td):
-    h = round(td.total_seconds() / 1800) / 2  # nearest half hour
-    return f"{h:g} 小时" if h >= 1 else f"{max(1, round(td.total_seconds() / 60))} 分钟"
+    if td < dt.timedelta(hours=1):
+        return f"{max(1, round(td.total_seconds() / 60))} 分钟"
+    return f"{round(td.total_seconds() / 1800) / 2:g} 小时"  # nearest half hour
 
 
 def fmt(it, now):
