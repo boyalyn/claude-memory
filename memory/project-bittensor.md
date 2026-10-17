@@ -34,7 +34,11 @@ User wants money from Bittensor; no GPU. No Freelancer/GitHub-bounty demand for 
 
 **Handoff for a fresh session:** read ~/lab/bittensor/HANDOFF.md first (state, safe-restart recipe, scoring mechanics, to-do list as of 2026-10-13 20:30 local).
 
+**2026-10-14 update:** read ~/lab/bittensor/RELAUNCH_PREP.md (lessons, checklist) and PREDICTIONS.md (dated series + pre-registered thresholds). Ratio to cohort stayed ~0.28-0.38 through 18:23 SGT; no S3 signal; user asked only for preparation, not a relaunch verdict.
+
 **Open:** real incentive after a few epochs; whether Reddit small subs are reachable by the actor; how scoring treats non-participation. Registration fee and $19 plan are sunk; Apify plan can be downgraded before renewal.
 
 **Why:** staged experiment; user decides stop/continue after chain feedback.
 **How to apply:** do not register/stake/spend without user confirmation; re-run sn13.py for fresh numbers. See [[feedback-goal-money-or-abandon]].
+
+**2026-10-14 20:12 SGT SN13 miner EVICTED:** hotkey miner1 (5EsJNuFJxcvq…) lost netuid 13 UID 181 at block 9281442 (last epoch emission 0.0593 alpha). The miner process kept polling the on-demand API with 401 "hotkey not found" until it exited ~01:37 SGT 10-15; no SN13 process runs now. Apify spend stopped (day total frozen at $3.80; month $39.18/$40). User asked to stop the SN13 monitor: cron line for sn13_monitor.py removed 2026-10-15 ~01:50 SGT (crontab backup ~/crontab.bak.* on VPS). 1.28 alpha remains staked on miner1 / netuid 13 (~0.0053 TAO) — unstaking needs the user's Mac wallet.

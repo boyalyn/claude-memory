@@ -20,7 +20,7 @@
 - [Ideas log](reference-ideas-log.md) — unverified ideas live in ~/claude-memory/ideas/ (synced; symlinked at lab/ideas); how to log and reference them
 - [No judgments in memory](feedback-no-judgments-in-memory.md) — store facts/instructions/tested results only; no verdicts from a few turns
 - [Freelance gigs](project-freelance-gigs.md) — Freelancer.com side income: gig-scout scanner, /propose, daily playbook, delivery packager, agreed rules, unverified items
-- [Bittensor / SN13](project-bittensor.md) — UID 181 miner on VPS since 2026-10-12; setup, measured facts, corrected Apify costs, open questions
+- [Bittensor / SN13](project-bittensor.md) — SN13 miner1 evicted 2026-10-14 20:12 SGT, monitor cron removed, 1.28 alpha left; setup, facts, Apify costs
 - [Kaggle work](project-kaggle.md) — ~/lab/kaggle, token in .env, notify.sh via VPS, results, lessons; user wants prize-money comps next
 - [News-heat sector study](project-news-sector-heat.md) — ~/lab/news-etf: heat->sector ETF tests on 2009-2019, test period 2020+ locked/untouched, results + traps
 - [BTC single-asset study](project-btc-study.md) — ~/lab/btc-study: pre-registered H1-H5, locked test spent 2026-10-11, results; no live trading
@@ -34,4 +34,7 @@
 - [Local time](feedback-local-time.md) — report times in Singapore local time (UTC+8), never UTC
 - [Opportunity scan 2026-10](project-opportunity-scan-2026-10.md) — Virtuals ACP (no-go evidence) and other-subnet candidates, data paths
 - [Bittensor handoff](project-bittensor.md) — read ~/lab/bittensor/HANDOFF.md first in a new session
-- [SN101 / Tag101 miner](project-sn101-prep.md) — UID 24 live (ensemble judge, API failover); **read ~/lab/subnets/sn101-mvp/HANDOFF.md first in a new session**
+- [SN101 / Tag101 miner](project-sn101-prep.md) — SHUT DOWN 2026-10-17 (miner + alert crons removed); runs 1-2 evicted; read ~/lab/subnets/sn101-mvp/HANDOFF.md first
+- [SN101 Jarvis report](feedback-sn101-jarvis-report.md) — (inactive since 2026-10-17 shutdown) auto push per epoch + after every check
+- [Stock watch](project-stock-watch.md) — VPS cron watching Courts for air purifier restock (haze 2026-10); remove when done
+- [To-do list](project-todo.md) — /todo command, TODO.md in claude-memory/todo, daily 09:03 SGT jarvis reminder from boya-server cron
