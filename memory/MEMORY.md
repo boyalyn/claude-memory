@@ -4,7 +4,7 @@
 - [Notification channel](reference-notification-channel.md) — "jarvis" = tech-digest Telegram bot; creds only on VPS
 - [User profile](user-profile.md) — Python-fluent Chinese speaker, often phone-only, cost/token-conscious
 - [Working style](feedback-working-style.md) — commit only when asked; report own bugs; real-money caution; evidence over reassurance
-- [Explain data and methods](feedback-explain-data-and-methods.md) — before results: data source/contents/gaps, method step by step, limits; show prompts before testing; dated version names; never call simulated data real
+- [Explain data and methods](feedback-explain-data-and-methods.md) — before results: data source/contents/gaps, method step by step, limits; link every public source in the answer; show prompts before testing; dated version names; never call simulated data real
 - [Access & credentials](reference-access-and-credentials.md) — how SSH/GitHub/Telegram/moomoo access works, where secrets live (no values)
 - [Project status](project-status.md) — big picture: user gave up beating QQQ with signals; what runs on the VPS now
 - [PEAD direction](project-pead-direction.md) — 2026-10-04 PEAD research (passed OOS, but ~+0-2%/yr over index) — user dropped it as not worth it; $25k capital

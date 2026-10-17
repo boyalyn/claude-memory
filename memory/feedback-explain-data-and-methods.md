@@ -1,6 +1,6 @@
 ---
 name: feedback-explain-data-and-methods
-description: Before any result, explain the data (source, contents, gaps), the method step by step, and limits; show prompt/strategy text before testing; name versions by date; never call simulated or reconstructed data "real"
+description: Before any result, explain the data (source, contents, gaps), the method step by step, and limits; always give the link of every public data source; show prompt/strategy text before testing; name versions by date; never call simulated or reconstructed data "real"
 metadata:
   type: feedback
 ---
@@ -22,4 +22,6 @@ What went wrong:
 - Show the actual text of any prompt or strategy before testing or deploying it. Let the user review it.
 - Name versions by what they are plus their date (e.g. "routed prompt v1, entity-first, 10-17"), never "old/new". Say whether a version has run live.
 - When there are several test rounds, say which round a result comes from and how it differs from the earlier one.
+- **Every public data source used in an answer must appear as a link in that answer** (user, 2026-10-18: "以后，所有的公开数据来源的链接必须出现在你给的答案里"). Examples: the page URL (e.g. https://tag101.ai/ for the homepage snapshot), the GitHub repo/file, the web pages a search result came from. If the source has changed or is gone (e.g. a rotating snapshot), say so and point to our archived copy (path).
+  **Why:** the user said they no longer trust my paraphrase of sources and want to check them directly.
 - Related: [[feedback-working-style]], [[feedback-no-judgments-in-memory]], [[project-sn101-prep]].
