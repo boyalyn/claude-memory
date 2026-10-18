@@ -26,3 +26,4 @@ What went wrong:
   **Why:** the user said they no longer trust my paraphrase of sources and want to check them directly.
 - Related: [[feedback-working-style]], [[feedback-no-judgments-in-memory]], [[project-sn101-prep]].
 - Never change a decision the user already made (e.g. which arms/prompts go live) inside a larger plan without calling it out explicitly as a change and asking. 2026-10-18: user chose A + B1; my adaptive plan silently re-added B2 and the user was upset ("怎么就有三个方案了，不是两个吗").
+- 2026-10-18: user: "不要跟重建人群中位数比，跟线上矿工中位数比". Headline comparisons must use the ONLINE miners (chain weights -> 24h-average gap of non-immune miners: median / p10 / lowest), not the snapshot-rebuilt crowd. The rebuilt crowd may still be used only for differences BETWEEN our own arms on the same post, and must be labelled that way.
