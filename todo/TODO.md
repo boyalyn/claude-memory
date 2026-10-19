@@ -8,8 +8,8 @@ Optional: nag:on = repeated reminders until done (see README); repeat:monthly = 
 ## Open
 - [ ] #1 P1 due:2026-11-05 est:15m cat:admin nag:on repeat:monthly added:2026-10-17 — 还 Trust 信用卡（6 号前） — why: 逾期有滞纳金和利息，还会影响信用记录
 - [ ] #2 P1 due:2026-11-05 est:15m cat:admin nag:on repeat:monthly added:2026-10-17 — 还 Citi 信用卡（6 号前） — why: 逾期有滞纳金和利息，还会影响信用记录
-- [ ] #3 P1 due:2026-10-18 est:2h cat:admin added:2026-10-17 — 订去日本的机票和酒店 — why: 用户定的周末期限；越晚订价格通常越高、选择越少
-- [ ] #4 P1 due:2026-10-18 est:1.5h cat:admin added:2026-10-17 — 敲定健身房续费，需要的话比较并选新的健身房 — why: 用户定的周末期限；可能涉及续费截止日（未知）
+- [ ] #3 P1 due:2026-10-19 est:2h cat:admin added:2026-10-17 — 订去日本的机票和酒店（11-08 去 / 11-14 回） — why: 2026-10-19 用户定今晚买机票（原期限 10-18 已过）；越晚订价格通常越高、选择越少
+- [ ] #4 P1 due:2026-10-19 est:1.5h cat:admin added:2026-10-17 — 敲定健身房续费，需要的话比较并选新的健身房 — why: 2026-10-19 用户定今晚敲定（原期限 10-18 已过）；可能涉及续费截止日（未知）
 - [ ] #5 P2 due:2026-10-25 est:4h cat:writing added:2026-10-17 — 写一篇关于新加坡 AI governance 的文章（周末有空就做，来不及放下周） — why: 2026-10-17 用户同意可推到下周；截止改为 10-25
 - [ ] #7 P1 due:2026-10-18 est:3h cat:other added:2026-10-17 — 周五遗留：做完两个 assessment — why: 用户定的周末期限；遗留工作
 - [ ] #10 P3 est:15m cat:admin added:2026-10-17 — 给 Apify 账户充值（语音写的是 Amplify，按 Apify 理解，待确认） — why: 用户说不急；是重试 SN13 的前提
