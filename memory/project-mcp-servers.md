@@ -31,4 +31,8 @@ More gotchas:
 - The token was rotated after the user pasted the old one into chat. Logs never record token characters.
 - claude.ai probes /.well-known/oauth-*; these return 404.
 
+- Found 2026-10-24: trackers follow only the cheapest fare on a route and can't filter by flight number. `SHA` as origin also returns PVG flights (it's treated as the Shanghai city code). Workaround for named flights: [[project-flight-watch]].
+
+- Found 2026-10-26: a hotel tracker with hotel_name only works if that hotel shows up in the unfiltered top 8 results for its `location` string. Broad strings like "Kyoto" returned null; use a neighbourhood that contains the hotel (for example "Takasegawa Kyoto"), and test it with search_hotels without filters first.
+
 The repo is NOT pushed to GitHub yet; ask first. Related: [[reference-tailscale]], [[reference-vps-proxy]].

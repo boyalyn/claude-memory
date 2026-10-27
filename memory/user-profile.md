@@ -14,3 +14,5 @@ Goal (stated 2026-10-05): become a "super individual" / build a startup, most li
 Server editing: can't use nano; uses vim (but didn't know how to recover a .swp file). Give exact vim keystrokes, or provide a prompt-based script instead of asking them to edit files.
 
 Investing context: holds VOO/QQQ-type US ETFs and made money with them. As a SG tax resident, US-domiciled ETF dividends are withheld at 30%. I pointed out that Ireland-domiciled UCITS ETFs (15%, no US estate tax) are worth checking with a tax professional; not personalised advice.
+
+Home (stated 2026-10-27): lives at **Normanton Park** condo (Kent Ridge / Pasir Panjang area), not Jurong West. Use this for anything location-based (gyms, shops, commute). Anytime Fitness membership with home club Jurong Point expired around 2026-10; on 2026-10-27 the user asked for cheaper gyms near home instead of renewing (AF Jurong Point 12-month promo was $99/month).
