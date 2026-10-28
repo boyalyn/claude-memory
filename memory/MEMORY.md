@@ -43,3 +43,4 @@
 - [Housekeeping](project-housekeeping.md) — weekly read-only server report Sun 09:53 SGT; "处理周检" flow; lab repo has no remote yet
 - [Flight watch](project-flight-watch.md) — ended 2026-10-26: outbound ticket bought, JL80/JL82 cron removed
 - [Japan trip 2026-11](project-japan-trip-2026-11.md) — 11-08..15 itinerary, what's booked, hotel shortlist, trackers #2,#6,#7,#10,#11 to stop after
+- [Session recall](project-session-recall.md) — auto session digests (cron, Sonnet) + SessionStart recent-sessions injection + recall.py search; Mac not covered yet
