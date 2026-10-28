@@ -28,8 +28,13 @@
 - 2026-10-09 [lab] Kaggle自动打榜与Enveda尝试 — Kaggle环境与jarvis通知已配好；Enveda最好公榜0.191（线0.425），Kaggriculture已放弃，等用户决定是否继续Enveda。 (未收尾 2) → sessions/2026-10-09_a7476035.md
 - 2026-10-09 [lab] Freelancer 接单扫描器搭建 — 搭好 gig-scout 扫描器与 /propose 提案命令并部署 VPS；用户已注册 Freelancer 并投了两单，选择保留扫描器；gig-scout 因 lab 仓库无远程尚未推送。 (未收尾 3) → sessions/2026-10-09_6f36d8cc.md
 - 2026-10-09 [lab] Freelancer 接单与写提案 — 评估了两个 Freelancer 项目并写好英文出价文案（Scraper Improvement 报 $250/7天，Scraper Reports 报 €30/2天），用户需自行提交，尚未确认是否写样品脚本。 (未收尾 2) → sessions/2026-10-09_598209b7.md
+- 2026-10-09 [lab] 改造tech digest并部署 — tech digest agent 四项改动已 push（f3c2e44）并部署到 VPS、手动发了一份新简报；用户发 /help 无反应的问题尚未确认解决。 (未收尾 3) → sessions/2026-10-09_22db1f67.md
+- 2026-10-08 [lab] 文明6巴比伦200回合升天 — 用户想用巴比伦在文明6中200回合内升天，Claude 给了科技胜利路线概要，用户尚未回复后续细化。 (未收尾 2) → sessions/2026-10-08_ef6a1c66.md
+- 2026-10-08 [lab] 查6号回苏州机票 — 查了11月6日新加坡出发回苏州（飞浦东/虹桥/无锡）的单程机票，最低 S$268（春秋 9C 8552），用户尚未选定航班。 (未收尾 2) → sessions/2026-10-08_ede5b534.md
 - 2026-10-08 [lab] 内部人信号MCP服务搭建 — 已做出带 API key 计数的 insider-signals MCP 服务并补完 2016-09 至 2026-10 数据，未上公网、未提交 git；休市日 403 修复已部署到服务器。 (未收尾 3) → sessions/2026-10-08_adbb5192.md
 - 2026-10-08 [lab] Excel 删除线清理脚本 — 用 pywin32 COM 写 Excel 清理脚本（删删除线文字、文字变黑、清高亮），调试后给出加固版，用户刚问 Power Automate 能否当 server，尚未选方案。 (未收尾 2) → sessions/2026-10-08_263b2e69.md
 - 2026-10-07 [lab] 事件GBM收尾与转向论文 — 内部人事件选股模型各方向均无稳定优势，已转写"个人难赢指数"论文并计划第二部分（成本税/配置/避险）；不用Norgate，待选优先级与是否买EODHD（10-08 01:07）。 (未收尾 3) → sessions/2026-10-07_d6d90606.md
 - 2026-10-07 [lab] 小盘Form4内部人买入研究 — 完成Form4内部人买入+健康过滤研究并写好前向纸面测试方案推到分支，VPS部署卡在SSH指纹确认，等用户回家回复"接受指纹"。 (未收尾 3) → sessions/2026-10-07_8508b71b.md
+- 2026-10-06 [lab] 网购MCP服务开发与部署 — 已在 /home/boya/lab 做好 Shopee/Amazon 网购 MCP 并部署为 systemd 服务，HTTPS 控制台待用户在手机上测试；用户 10-06 03:49 决定先不 push 到 git。 (未收尾 3) → sessions/2026-10-06_bbca8b15.md
+- 2026-10-06 [lab] Shopee 工具自动登录 — 用户想在 Shopee 买湿厕纸，要求工具自动 login；功能已写好、服务已重启，但尚未保存账号、未用真实账号测试。 (未收尾 3) → sessions/2026-10-06_5a33e983.md
 - 2026-10-06 [lab] 查看机器配置与目录 — 查询了本机 CPU、内存、磁盘配置及当前 runtime 目录（/home/boya/lab），已回答，无待办。 → sessions/2026-10-06_0865c0a3.md
