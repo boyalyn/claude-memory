@@ -34,5 +34,6 @@ More gotchas:
 - Found 2026-10-24: trackers follow only the cheapest fare on a route and can't filter by flight number. `SHA` as origin also returns PVG flights (it's treated as the Shanghai city code). Workaround for named flights: [[project-flight-watch]].
 
 - Found 2026-10-26: a hotel tracker with hotel_name only works if that hotel shows up in the unfiltered top 8 results for its `location` string. Broad strings like "Kyoto" returned null; use a neighbourhood that contains the hotel (for example "Takasegawa Kyoto"), and test it with search_hotels without filters first.
+- Found 2026-10-30: even that is not enough. Trackers #12/#13 were created with exact Google names after a passing unfiltered test on 10-29, and both were null the next day because the unfiltered list for the same location no longer contained them (it changes daily; hostels and rentals crowd it). A filtered search (min_rating/max_price) still found one of them. Named-hotel trackers need filters or a different lookup in the server code; track_hotel_price has no filter parameters. Exact-name queries (e.g. "Toyoko Inn Osaka Namba") returned an empty list on 10-29; cause not checked (one guess: SerpApi returns a single-property format for exact matches).
 
 The repo is NOT pushed to GitHub yet; ask first. Related: [[reference-tailscale]], [[reference-vps-proxy]].
