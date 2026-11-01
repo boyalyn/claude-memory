@@ -13,7 +13,7 @@ Optional: nag:on = repeated reminders until done (see README); repeat:monthly = 
 - [ ] #10 P3 est:15m cat:admin added:2026-10-17 — 给 Apify 账户充值（语音写的是 Amplify，按 Apify 理解，待确认） — why: 用户说不急；是重试 SN13 的前提
 - [ ] #11 P3 est:4h cat:coding added:2026-10-17 — 再试一次 SN13 项目（先做 #10） — why: 用户说不急；开始前先读 ~/lab/bittensor/HANDOFF.md
 - [ ] #12 P2 est:10m cat:admin added:2026-10-17 — 在 GitHub 建私有仓库放 ~/lab 代码，把名字告诉 Claude 推上去 — why: lab 代码目前只在 boya-server 本地，硬盘坏了就没了
-- [ ] #13 P2 due:2026-10-31 est:20m cat:errand added:2026-10-17 — 去日本前把鞋送洗（预约上门取件或送到店） — why: 11-08 出发；洗鞋一般最多 5 个工作日，10-31 前送出才赶得上
+- [ ] #13 P3 est:20m cat:errand added:2026-10-17 — 把鞋送洗（怎么洗还没定） — why: 2026-11-01 用户说还不知道怎么洗、再说；原定去日本前（10-31）送洗已来不及，取消期限
 - [ ] #15 P1 due:2026-11-01 est:30m cat:admin added:2026-10-19 — 订大阪酒店：难波 11-13→11-15 两晚（东京 Richmond 浅草 11-08→11-10 已订；京都 THE GATE HOTEL 高濑川 11-10→11-13 已订 10-29） — why: 周五周六两晚，10-29 原候选已涨价或搜不到，越晚越少
 - [ ] #16 P1 due:2026-11-05T17:00 est:1h cat:admin added:2026-11-01 — 去中国前把新加坡手机号转成 eSIM：工作日打电话给电信商办（语音写的是 Sam Link，是哪家待确认）；空出实体卡槽插中国卡，两边同时有信号 — why: 2026-11-06 周五离开新加坡，打电话只能在工作日；截止定周四 17:00 是猜的客服时间，留出周五出发前的余量；没转好到了中国就收不到新加坡银行等的短信验证码
 ## Done
